@@ -15,6 +15,7 @@ Make better experience in Ritsu-Auth WiFi login.
 ## How to use
 1. Clone this repo, or you can download the zip file via the button upper right.
 2. Install package ```rumps``` and ```requests```. For most people, installation via pip is recommended.
+
     ```shell
     pip install rumps
     pip install requests
@@ -22,6 +23,7 @@ Make better experience in Ritsu-Auth WiFi login.
 
 3. Edit ```RitsuWiFi.py``` to add your username and password.
     - __Example below__
+    
     ```python
     # ---------------------------------------
     # Setting Area
@@ -41,6 +43,7 @@ If you wanna get a standalone version of RitsuWiFi, here is the solution.
 - You should build standalone version after you confirmed RitsuWiFi works.
 
 1. Install package ```py2app```.
+
     ```shell
     pip install py2app
     ```
