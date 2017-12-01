@@ -2,6 +2,9 @@
 Make better experience in Ritsu-Auth WiFi login.
 
 ***Just can be used in Ritsumeikan University***
+
+[English](https://github.com/fang2hou/RitsuWifi/blob/master/ReadMe.md)| [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/ReadMe.ja_JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/ReadMe.zh_CN.md)
+
 ## Preview
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
 
@@ -10,7 +13,7 @@ ___Python Version___: 2.6+ / 3.3+
 
 RitsuWiFi is tested under Python 2.7 & 3.6.
 
-If you run Ritsumei via Python 3.X in macOS, please use ```pip3``` and ```python3``` instead.
+If you run RitsuWiFi via Python 3.X in macOS, please use ```pip3``` and ```python3``` instead.
 
 ___Addtional Library___: ```requests```, ```rumps```
 ## TODO
