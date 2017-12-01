@@ -70,7 +70,7 @@ def loginWifi():
 
 def mainStatus():
 	if isConnected:
-		if "outer" in getNetworkStatus():
+		if "inner" in getNetworkStatus():
 			return loginWifi()
 		else:
 			return "You logged in Wi-Fi!"
