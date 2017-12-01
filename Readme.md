@@ -3,7 +3,7 @@ Make better experience in Ritsu-Auth WiFi login.
 
 ***Just can be used in Ritsumeikan University***
 
-[English](https://github.com/fang2hou/RitsuWifi/blob/master/ReadMe.md)| [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/ReadMe.ja_JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/ReadMe.zh_CN.md)
+[English](https://github.com/fang2hou/RitsuWifi)| [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.zh-CN.md)
 
 ## Preview
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
