@@ -23,6 +23,7 @@ Make better experience in Ritsu-Auth WiFi login.
 3. Edit ```RitsuWiFi.py``` to add your username and password.
 
 __Example below__
+
     ```python
     # ---------------------------------------
     # Setting Area
