@@ -1,6 +1,6 @@
 # RitsuWiFi
 Make better experience in Ritsu-Auth WiFi login.
-***Just be used in Ritsumeikan University***
+***Just can be used in Ritsumeikan University***
 ## How to use
 1. Clone this repo, or you can download the zip file via the button upper right.
 2. Install package ```rumps``` and ```requests```. For most people, installation via pip is recommended.
