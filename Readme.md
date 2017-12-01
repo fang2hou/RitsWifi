@@ -21,17 +21,17 @@ Make better experience in Ritsu-Auth WiFi login.
     ```
 
 3. Edit ```RitsuWiFi.py``` to add your username and password.
-
-__Example below__
+    - __Example below__
+    ```python
     # ---------------------------------------
     # Setting Area
     # ---------------------------------------
     wifiName = "Rits-Webauth"
     loginPagePath = "https://webauth.ritsumei.ac.jp"
-    
+
     myUsername = "is1234rj"
     myPassword = "12345678"
-    
+    ```
 4. Run ```python RitsuWiFi.py``` in Terminal.app or other terminal application you prefer.
 
 ## Build as standalone application
