@@ -9,7 +9,7 @@ Make better experience in Ritsu-Auth WiFi login.
     pip install requests
     ```
 
-3. Edit ```RitsumeiWiFi.py``` to add your username and password.
+3. Edit ```RitsuWiFi.py``` to add your username and password.
 __Example below__
     ```python
     # ---------------------------------------
@@ -21,10 +21,10 @@ __Example below__
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. Run ```python RitsumeiWiFi.py``` in Terminal.app or other terminal application you prefer.
+4. Run ```python RitsuWiFi.py``` in Terminal.app or other terminal application you prefer.
 
 ## Build as standalone application
-If you wanna get a standalone version of RitsumeiWiFi, here is the solution.
+If you wanna get a standalone version of RitsuWiFi, here is the solution.
 
 - The .app file will be created with the icon (logo.icns).
 - You should build standalone version after you confirmed RitsuWiFi works.
