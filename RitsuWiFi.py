@@ -18,8 +18,8 @@ softVersion = "0.1.1 Beta"
 wifiName = "Rits-Webauth"
 loginPagePath = "https://webauth.ritsumei.ac.jp"
 
-myUsername = "is0385rx"
-myPassword = "fang1234"
+myUsername = "is1234ab"
+myPassword = "12345678"
 
 autoDelay = 10
 # ---------------------------------------

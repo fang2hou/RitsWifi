@@ -6,11 +6,11 @@ Make better experience in Ritsu-Auth WiFi login.
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
 
 ## Requirement
-***Python Version***: 2.6+ / 3.3+
+___Python Version___: 2.6+ / 3.3+
 
 RitsuWiFi is tested under Python 2.7 & 3.6.
 
-***Addtional Library***: ```requests```, ```rumps```
+___Addtional Library___: ```requests```, ```rumps```
 ## TODO
 - [x] Login via post
 - [x] Auto-login
