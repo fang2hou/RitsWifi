@@ -5,11 +5,12 @@ Make better experience in Ritsu-Auth WiFi login.
 ## Preview
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
 
-## Requirement
+## Requirements
 ___Python Version___: 2.6+ / 3.3+
 
 RitsuWiFi is tested under Python 2.7 & 3.6.
-If you want to use Python 3.X in macOS, please use ```pip3``` and ```python3```commands to run the script.
+
+If you run Ritsumei via Python 3.X in macOS, please use ```pip3``` and ```python3``` instead.
 
 ___Addtional Library___: ```requests```, ```rumps```
 ## TODO
@@ -17,7 +18,7 @@ ___Addtional Library___: ```requests```, ```rumps```
 - [x] Auto-login
 - [x] macOS menubar feature
 - [ ] Multi-platform support
-- [x] Standalone build (Requests need installed)
+- [x] Standalone build (Alias)
 
 ## How to use
 1. Clone this repo, or you can download the zip file via the button upper right.
