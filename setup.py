@@ -4,12 +4,14 @@ APP = ['RitsuWiFi.py']
 APP_NAME = 'RitsuWiFi'
 DATA_FILES = ['icon.png']
 OPTIONS = {
-	'argv_emulation': False, 
+	'argv_emulation': True, 
 	'plist': {
 		'LSUIElement': True,
 	},
 	'iconfile': 'logo.icns',
-	'includes': ['rumps','requests','os','platform','subprocess'],
+	'strip': False,
+	'includes': ['os','rumps','platform','subprocess','requests','threading','time'],
+	'packages': ['requests'],
 }
 
 setup(
