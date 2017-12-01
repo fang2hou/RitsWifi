@@ -1,6 +1,14 @@
 # RitsuWiFi
 Make better experience in Ritsu-Auth WiFi login.
+
 ***Just can be used in Ritsumeikan University***
+## TODO
+[x] Login via post
+[] Auto-login
+[x] macOS menubar feature
+[] Multi-platform support
+[x] Standalone build
+
 ## How to use
 1. Clone this repo, or you can download the zip file via the button upper right.
 2. Install package ```rumps``` and ```requests```. For most people, installation via pip is recommended.
@@ -10,6 +18,7 @@ Make better experience in Ritsu-Auth WiFi login.
     ```
 
 3. Edit ```RitsuWiFi.py``` to add your username and password.
+
 __Example below__
     ```python
     # ---------------------------------------
@@ -35,4 +44,3 @@ If you wanna get a standalone version of RitsuWiFi, here is the solution.
     ```
 2. Before building, use ```rm -rf dist build``` to clean up the build folder is better.
 3. Run ```python setup.py py2app``` in Terminal.app or other terminal application you prefer.
-
