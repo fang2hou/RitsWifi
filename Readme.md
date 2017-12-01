@@ -2,6 +2,8 @@
 Make better experience in Ritsu-Auth WiFi login.
 
 ***Just can be used in Ritsumeikan University***
+## Preview
+<img align="center" src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
 ## TODO
 - [x] Login via post
 - [ ] Auto-login
