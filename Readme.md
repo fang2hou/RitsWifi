@@ -3,11 +3,11 @@ Make better experience in Ritsu-Auth WiFi login.
 
 ***Just can be used in Ritsumeikan University***
 ## TODO
-[x] Login via post
-[] Auto-login
-[x] macOS menubar feature
-[] Multi-platform support
-[x] Standalone build
+- [x] Login via post
+- [ ] Auto-login
+- [x] macOS menubar feature
+- [ ] Multi-platform support
+- [x] Standalone build
 
 ## How to use
 1. Clone this repo, or you can download the zip file via the button upper right.
