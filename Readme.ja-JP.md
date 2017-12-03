@@ -3,7 +3,7 @@
 
 ***立命館大学構内で利用可能***
 
-[English](https://github.com/fang2hou/RitsuWifi)| [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.zh-CN.md)
+[English](https://github.com/fang2hou/RitsuWifi) | [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.zh-CN.md)
 
 ## プレビュー
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
@@ -13,7 +13,7 @@ ___Python___: 2.6以降 / 3.3以降
 
 Python 2.7 & 3.6 で RitsuWiFi のビルドと実行テストを行う。
 
-RitsuWiFi を　macOS Python 3.X で実行する場合、```pip``` や ```python``` ではなく、```pip3``` と ```python3``` を活用してください。
+RitsuWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python``` ではなく、```pip3``` と ```python3``` を活用してください。
 
 ___追加ライブラリ___: ```requests```、```rumps```
 ## TODO
