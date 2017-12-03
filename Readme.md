@@ -9,13 +9,13 @@ Make better experience in Ritsu-Auth WiFi login.
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
 
 ## Requirements
-___Python Version___: 2.6+ / 3.3+
+**Python Version**: 2.6+ / 3.3+
 
-RitsuWiFi is tested under Python 2.7 & 3.6.
+RitsuWiFi is built and tested under Python 2.7 & 3.6.
 
-If you run RitsuWiFi via Python 3.X in macOS, please use ```pip3``` and ```python3``` instead.
+If you run RitsuWiFi via Python 3.X in macOS, please use ```pip3``` and ```python3``` instead of ```pip``` and ```python```.
 
-___Addtional Library___: ```requests```, ```rumps```
+**Addtional Library**: ```requests```, ```rumps```
 ## TODO
 - [x] Login via post
 - [x] Auto-login
@@ -45,7 +45,7 @@ ___Addtional Library___: ```requests```, ```rumps```
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. Run ```python RitsuWiFi.py``` in Terminal.app or other terminal application you prefer.
+4. Run ```python RitsuWiFi.py``` in **Terminal.app** or other terminal application you prefer.
 
 ## Build as standalone application
 If you wanna get a standalone version of RitsuWiFi, here is the solution.
@@ -60,4 +60,4 @@ If you wanna get a standalone version of RitsuWiFi, here is the solution.
     pip install py2app
     ```
 2. Before building, use ```rm -rf dist build``` to clean up the build folder is better.
-3. Run ```python setup.py py2app -A``` in Terminal.app or other terminal application you prefer.
+3. Run ```python setup.py py2app -A``` in **Terminal.app** or other terminal application you prefer.

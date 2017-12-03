@@ -9,13 +9,13 @@
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
 
 ## 运行环境
-___Python版本___: 2.6+ / 3.3+
+**Python版本**: 2.6+ / 3.3+
 
-RitsuWiFi 在 Python 2.7 & 3.6 下测试通过
+RitsuWiFi 在 Python 2.7 & 3.6 进行编译和测试。
 
-如果你在 macOS 的 Python 3.X 中运行 RitsuWiFi，请使用 ```pip3``` 及 ```python3``` 来替换下面提到的命令。
+如果你在 macOS 的 Python 3.X 中运行 RitsuWiFi，请使用 ```pip3``` 及 ```python3``` 来替换```pip``` 和 ```python```。
 
-___额外库___: ```requests```, ```rumps```
+**额外库**: ```requests```, ```rumps```
 ## TODO
 - [x] 通过POST提交登陆信息
 - [x] 自动登陆
@@ -45,12 +45,12 @@ ___额外库___: ```requests```, ```rumps```
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. 在终端或是其他你喜欢的终端程序中执行 ```python RitsuWiFi.py```。
+4. 在**终端**或是其他你喜欢的终端程序中执行 ```python RitsuWiFi.py```。
 
 ## 编译成独立App
 如果你想要一个独立App形式的 RitsuWiFi，这里有一个解决方案。
 
-- 创建 .app 文件是，会采用 logo.icns 来作为图标。
+- 创建 .app 文件时，会采用 logo.icns 来作为图标。
 - 请你务必在确认 RitsuWiFi 能够正常工作后再将其编译成独立App。
 - 请追加 ```-A``` 编译命令来启用别名模式
 
@@ -60,4 +60,4 @@ ___额外库___: ```requests```, ```rumps```
     pip install py2app
     ```
 2. 在编译之前, 建议执行 ```rm -rf dist build``` 来清理编译文件夹。
-3. 在终端或是其他你喜欢的终端程序中执行 ```python setup.py py2app -A```。
+3. 在**终端**或是其他你喜欢的终端程序中执行 ```python setup.py py2app -A```。

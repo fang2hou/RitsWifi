@@ -9,13 +9,13 @@
 <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
 
 ## 準備
-___Python___: 2.6以降 / 3.3以降
+**Python**: 2.6以降 / 3.3以降
 
 Python 2.7 & 3.6 で RitsuWiFi のビルドと実行テストを行う。
 
 RitsuWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python``` ではなく、```pip3``` と ```python3``` を活用してください。
 
-___追加ライブラリ___: ```requests```、```rumps```
+**追加ライブラリ**: ```requests```、```rumps```
 ## TODO
 - [x] POSTメソッドでのログイン
 - [x] 自動的にログイン(バックエンド)
@@ -45,7 +45,7 @@ ___追加ライブラリ___: ```requests```、```rumps```
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. ターミナルアプリで ```python RitsuWiFi.py``` を実行する。
+4. **ターミナル**または他のターミナルアプリで ```python RitsuWiFi.py``` を実行する。
 
 ## Macアプリとしてバイナリ化
 RitsuWiFi をバイナリ化にしたい場合、下の手順に従って作成できる。
@@ -60,4 +60,4 @@ RitsuWiFi をバイナリ化にしたい場合、下の手順に従って作成�
     pip install py2app
     ```
 2. コンパイルする前に```rm -rf dist build``` を実行し、ビルドフォルダの整理は推奨である。
-3. ターミナルアプリで ```python setup.py py2app -A``` を実行してください。
+3. **ターミナル**または他のターミナルアプリで ```python setup.py py2app -A``` を実行してください。
