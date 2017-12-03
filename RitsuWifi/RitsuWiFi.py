@@ -1,7 +1,7 @@
 #! python3
 # coding: utf-8
 # -------------------------
-# RitsumeiWiFi
+# RitsuWiFi
 # for Ritsumeikan Univ.
 # Author: Zhou Fang (is0385rx@ed.ritsumei.ac.jp)
 import os
@@ -14,13 +14,14 @@ import time
 # ---------------------------------------
 # Setting Area
 # ---------------------------------------
-softVersion = "0.1.1 Beta"
+softVersion = "0.1.2 Beta"
 wifiName = "Rits-Webauth"
 loginPagePath = "https://webauth.ritsumei.ac.jp"
 
 myUsername = "is1234ab"
 myPassword = "12345678"
 
+# Default delay: 10s
 autoDelay = 10
 # ---------------------------------------
 # Functions
@@ -97,8 +98,6 @@ def Main(method):
 	else:
 		return "Please connect to \"Rits-Webauth\"!"
 # End of Main()
-	
-# End of AutoLogIn()
 # ---------------------------------------
 # Class Defination
 # ---------------------------------------
@@ -117,8 +116,8 @@ class AutoLogInThread(threading.Thread):
 
 	def stop(self):
 		self.isRunning = False
-
 # End of AutoLogInThread
+
 class MacOSMenuBar(rumps.App):
 	def __init__(self):
   		super(MacOSMenuBar, self).__init__("RitsuWifi", icon="icon.png",quit_button=rumps.MenuItem('Quit RitsuWiFi', key='q'))
@@ -147,8 +146,12 @@ class MacOSMenuBar(rumps.App):
 	@rumps.clicked('About')
 	def btn_about(self, _):
 		rumps.alert(title="About", message="Current Version: " + softVersion + "(Python)\n\nAuthor List:\nFang Zhou (is0385rx@ed.ritsumei.ac.jp)")
+# End of MacOSMenuBar
+# ---------------------------------------
+# Startup script
 # ---------------------------------------
 operatingSystem = GetOperatingSystem()
 autoThread = AutoLogInThread(1,"Thread-1")
+
 if __name__ == "__main__" and operatingSystem == "macOS":
     MacOSMenuBar().run()
