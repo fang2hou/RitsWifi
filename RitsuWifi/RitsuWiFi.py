@@ -14,14 +14,13 @@ import time
 # ---------------------------------------
 # Setting Area
 # ---------------------------------------
-softVersion = "0.1.2 Beta"
+softVersion = "0.1.3 Beta"
 wifiName = "Rits-Webauth"
 loginPagePath = "https://webauth.ritsumei.ac.jp"
 
 myUsername = "is1234ab"
 myPassword = "12345678"
 
-# Default delay: 10s
 autoDelay = 10
 # ---------------------------------------
 # Functions
@@ -46,11 +45,25 @@ def IsSSIDConnected(operatingSystem):
 # End of IsSSIDConnected()
 
 def GetNetworkStatus():
-	statusText = requests.get("http://httpbin.org/ip");
-	if "\"origin\":" in statusText.text:
+	# HTTPSBIN 
+	# -----------------------
+	# statusText = requests.get("http://httpbin.org/ip");
+	# if "\"origin\":" in statusText.text:
+	# 	return "outer"
+	# else:
+	# 	return "inner"
+
+	# Page provided by Zhou Fang
+	# Updated in Dec 5, 2017
+	# -----------------------
+	statusText = requests.get("http://www.ritsumei.ac.jp/~is0385rx/supports/ritsuwifi/status.html");
+	if "is0385rx_ritsuwifi_status_is_on" in statusText.text:
 		return "outer"
 	else:
 		return "inner"
+
+
+
 # End of GetNetworkStatus()
 
 def LogInWifi():
@@ -151,7 +164,7 @@ class MacOSMenuBar(rumps.App):
 # Startup script
 # ---------------------------------------
 operatingSystem = GetOperatingSystem()
-autoThread = AutoLogInThread(1,"Thread-1")
+autoThread = AutoLogInThread(1, "Thread-1")
 
 if __name__ == "__main__" and operatingSystem == "macOS":
     MacOSMenuBar().run()
