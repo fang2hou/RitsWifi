@@ -1,4 +1,4 @@
-#! python3
+#! /usr/local/bin/python3
 # coding: utf-8
 # -------------------------
 # RitsuWiFi
@@ -14,7 +14,7 @@ import time
 # ---------------------------------------
 # Setting Area
 # ---------------------------------------
-softVersion = "0.1.3 Beta"
+softVersion = "0.1.5 Beta"
 wifiName = "Rits-Webauth"
 loginPagePath = "https://webauth.ritsumei.ac.jp"
 
@@ -61,8 +61,6 @@ def GetNetworkStatus():
 		return "outer"
 	else:
 		return "inner"
-
-
 
 # End of GetNetworkStatus()
 
@@ -111,6 +109,7 @@ def Main(method):
 	else:
 		return "Please connect to \"Rits-Webauth\"!"
 # End of Main()
+
 # ---------------------------------------
 # Class Defination
 # ---------------------------------------
@@ -123,13 +122,14 @@ class AutoLogInThread(threading.Thread):
 
 	def run(self):
 		while self.isRunning:
-			time.sleep(autoDelay)
-			if self.isRunning and IsSSIDConnected(operatingSystem) and "inner" in GetNetworkStatus():
+			if IsSSIDConnected(operatingSystem) and "inner" in GetNetworkStatus():
 				LogInWifi()
+			time.sleep(autoDelay)
 
 	def stop(self):
 		self.isRunning = False
 # End of AutoLogInThread
+
 
 class MacOSMenuBar(rumps.App):
 	def __init__(self):
