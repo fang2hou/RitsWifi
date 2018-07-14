@@ -13,7 +13,9 @@ Make better experience in Ritsu-Auth WiFi login.
 
 ## Requirements
 iOS 10.0 or later
+
 App: [JSBOX](https://itunes.apple.com/us/app/jsbox-make-your-own-tools/id1312014438?mt=8)($7.99)
+
 JSBOX is a wonderful app that allowed you to build custom iOS tool in JavaScript.
 
 ## Installation
