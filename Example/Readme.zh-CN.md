@@ -1,27 +1,21 @@
-# RitsuWiFi
+# RitsWiFi
 优化立命馆的校内无线网络的体验
 
 ***只能在立命馆大学使用***
 
-[English](https://github.com/fang2hou/RitsuWifi) | [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.zh-CN.md)
+[English](https://github.com/fang2hou/RitsuWifi) | [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/extra/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/extra/Readme.zh-CN.md)
 
 ## 预览
-<img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
+* <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/extra/example.png" width="250px"/>
 
 ## 运行环境
 **Python版本**: 2.6+ / 3.3+
 
-RitsuWiFi 在 Python 2.7 & 3.6 进行编译和测试。
+RitsuWiFi 在 Python 2.7.0 & 3.7.0 进行编译和测试。
 
-如果你在 macOS 的 Python 3.X 中运行 RitsuWiFi，请使用 ```pip3``` 及 ```python3``` 来替换```pip``` 和 ```python```。
+如果你在 macOS 的 Python 3.X 中运行 RitsWiFi，请使用 ```pip3``` 及 ```python3``` 来替换```pip``` 和 ```python```。
 
 **额外库**: ```requests```, ```rumps```
-## TODO
-- [x] 通过POST提交登陆信息
-- [x] 自动登陆
-- [x] macOS 菜单栏功能
-- [ ] 多平台支持
-- [x] 独立App编译 (别名模式)
 
 ## 如何使用
 1. 克隆(Clone)本项目, 或者你也可以通过右上方的下载按钮来获取zip压缩包。
@@ -32,7 +26,7 @@ RitsuWiFi 在 Python 2.7 & 3.6 进行编译和测试。
     pip install requests
     ```
 
-3. 修改 ```RitsuWiFi.py``` 来添加你的账号和密码
+3. 修改 ```RitsWiFi.py``` 来添加你的账号和密码
     - __举个例子__
     
     ```python
@@ -45,7 +39,7 @@ RitsuWiFi 在 Python 2.7 & 3.6 进行编译和测试。
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. 在**终端**或是其他你喜欢的终端程序中执行 ```python RitsuWiFi.py```。
+4. 在**终端**或是其他你喜欢的终端程序中执行 ```python RitsWiFi.py```。
 
 ## 编译成独立App
 如果你想要一个独立App形式的 RitsuWiFi，这里有一个解决方案。

@@ -1,27 +1,21 @@
-# RitsuWiFi
-構内無線LANの接続をより簡単に。
+# RitsWiFi
+立命館大学無線LANの接続をより簡単にしよう。
 
 ***立命館大学構内で利用可能***
 
-[English](https://github.com/fang2hou/RitsuWifi) | [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/Readme.zh-CN.md)
+[English](https://github.com/fang2hou/RitsuWifi) | [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/extra/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/extra/Readme.zh-CN.md)
 
 ## プレビュー
-<img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/ExampleImages/Main.png" width="250px"/>
+<img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/extra/example.png" width="250px"/>
 
 ## 準備
 **Python**: 2.6以降 / 3.3以降
 
-Python 2.7 & 3.6 で RitsuWiFi のビルドと実行テストを行う。
+Python 2.7 & 3.7.0 で RitsWiFi のビルドと実行テストを行う。
 
-RitsuWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python``` ではなく、```pip3``` と ```python3``` を活用してください。
+RitsWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python``` ではなく、```pip3``` と ```python3``` を活用してください。
 
 **追加ライブラリ**: ```requests```、```rumps```
-## TODO
-- [x] POSTメソッドでのログイン
-- [x] 自動的にログイン(バックエンド)
-- [x] macOS メニューバー対応
-- [ ] マルチプラットフォーム対応
-- [x] Macアプリケーションとしてバイナリ化
 
 ## 使い方
 1. プロジェクトをクローン(Clone)し、もしくは右上の「Download」ボタンよりZIPファイルをダウンロードしてください。
@@ -32,7 +26,7 @@ RitsuWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python``
     pip install requests
     ```
 
-3. ```RitsuWiFi.py``` にある「Setting Area」で自分とのユーザネームとパスワードを編集してください。
+3. ```RitsWiFi.py``` にある「Setting Area」で自分とのユーザネームとパスワードを編集してください。
     - __配置の例__
     
     ```python
@@ -45,7 +39,7 @@ RitsuWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python``
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. **ターミナル**または他のターミナルアプリで ```python RitsuWiFi.py``` を実行する。
+4. **ターミナル**または他のターミナルアプリで ```python RitsWiFi.py``` を実行する。
 
 ## Macアプリとしてバイナリ化
 RitsuWiFi をバイナリ化にしたい場合、下の手順に従って作成できる。
