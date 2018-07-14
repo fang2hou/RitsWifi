@@ -3,10 +3,10 @@
 
 ***只能在立命馆大学使用***
 
-[English](https://github.com/fang2hou/RitsuWifi) | [日本語](https://github.com/fang2hou/RitsuWifi/blob/master/extra/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsuWifi/blob/master/extra/Readme.zh-CN.md)
+[English](https://github.com/fang2hou/RitsWifi) | [日本語](https://github.com/fang2hou/RitsWifi/blob/master/extra/Readme.ja-JP.md) | [简体中文](https://github.com/fang2hou/RitsWifi/blob/master/extra/Readme.zh-CN.md)
 
 ## 预览
-* <img src="https://cdn.rawgit.com/fang2hou/RitsuWiFi/master/extra/example.png" width="250px"/>
+<img src="https://cdn.rawgit.com/fang2hou/RitsWiFi/master/extra/example.png" width="250px"/>
 
 ## 运行环境
 **Python版本**: 2.6+ / 3.3+
