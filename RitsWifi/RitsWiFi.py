@@ -56,8 +56,8 @@ def GetNetworkStatus():
 	# Page provided by Zhou Fang
 	# Updated in Dec 5, 2017
 	# -----------------------
-	statusText = requests.get("http://www.ritsumei.ac.jp/~is0385rx/supports/ritsuwifi/status.html");
-	if "is0385rx_ritsuwifi_status_is_on" in statusText.text:
+	statusText = requests.get("http://www.ritsumei.ac.jp/~is0385rx/supports/ritswifi/status.html");
+	if "is0385rx_ritswifi_status_is_on" in statusText.text:
 		return "outer"
 	else:
 		return "inner"
