@@ -14,14 +14,14 @@ import time
 # ---------------------------------------
 # Setting Area
 # ---------------------------------------
-softVersion = "0.1.5 Beta"
+softVersion = "0.1.6"
 wifiName = "Rits-Webauth"
 loginPagePath = "https://webauth.ritsumei.ac.jp"
 
 myUsername = "is1234ab"
 myPassword = "12345678"
 
-autoDelay = 10
+autoDelay = 5
 # ---------------------------------------
 # Functions
 # ---------------------------------------
