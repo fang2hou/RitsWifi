@@ -1,7 +1,7 @@
 from setuptools import setup
 
-APP = ['RitsuWiFi.py']
-APP_NAME = 'RitsuWiFi'
+APP = ['RitsWiFi.py']
+APP_NAME = 'RitsWiFi'
 DATA_FILES = ['icon.png']
 OPTIONS = {
 	'argv_emulation': True, 
