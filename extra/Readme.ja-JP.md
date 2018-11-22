@@ -23,7 +23,7 @@
     pip3 install requests
     ```
 
-3. ```RitsWiFi.py``` にある「Setting Area」で自分との RAINBOW ID とパスワードを編集してください。
+3. ```RitsWiFi.py``` にある「Setting Area」で自分との RAINBOW ID とパスワードを編集してください。  
 __設定の一例__
     ```python
     # ---------------------------------------

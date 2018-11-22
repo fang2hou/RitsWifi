@@ -24,7 +24,7 @@
     pip3 install requests
     ```
 
-3. 修改 ```RitsWiFi.py``` 来添加你的 RAINBOW 账号和密码。
+3. 修改 ```RitsWiFi.py``` 来添加你的 RAINBOW 账号和密码。  
 __举个例子__    
     ```python
     # ---------------------------------------
