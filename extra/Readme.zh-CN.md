@@ -1,5 +1,5 @@
 # RitsWiFi
-优化立命馆的校内无线网络的体验
+优化立命馆的校内无线网络的体验。
 
 ***只能在立命馆大学使用***
 
@@ -11,24 +11,21 @@
 ## 运行环境
 **Python版本**: 2.6+ / 3.3+
 
-RitsuWiFi 在 Python 2.7.0 & 3.7.0 进行编译和测试。
+**推荐使用 Python 3。** 如果一定要用 Python 请使用 `pip` 及 `python` 来替换 `pip3` 和 `python3`。
 
-如果你在 macOS 的 Python 3.X 中运行 RitsWiFi，请使用 ```pip3``` 及 ```python3``` 来替换```pip``` 和 ```python```。
-
-**额外库**: ```requests```, ```rumps```
+**第三方库**: `requests`, `rumps`
 
 ## 如何使用
 1. 克隆(Clone)本项目, 或者你也可以通过右上方的下载按钮来获取zip压缩包。
-2. 安装包 ```rumps``` 及 ```requests```。对于大多数人来说，推荐通过pip来完成安装。
+2. 安装包 `rumps` 及 `requests`。对于大多数人来说，推荐通过pip来完成安装。
 
     ```shell
-    pip install rumps
-    pip install requests
+    pip3 install rumps
+    pip3 install requests
     ```
 
-3. 修改 ```RitsWiFi.py``` 来添加你的账号和密码
-    - __举个例子__
-    
+3. 修改 ```RitsWiFi.py``` 来添加你的 RAINBOW 账号和密码。
+__举个例子__    
     ```python
     # ---------------------------------------
     # Setting Area
@@ -39,19 +36,19 @@ RitsuWiFi 在 Python 2.7.0 & 3.7.0 进行编译和测试。
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. 在**终端**或是其他你喜欢的终端程序中执行 ```python RitsWiFi.py```。
+4. 在**终端**中执行 ```python3 RitsWiFi.py```。
 
 ## 编译成独立App
-如果你想要一个独立App形式的 RitsuWiFi，这里有一个解决方案。
+如果你想要一个独立App形式的 RitsWiFi，这里有一个解决方案。
 
 - 创建 .app 文件时，会采用 logo.icns 来作为图标。
-- 请你务必在确认 RitsuWiFi 能够正常工作后再将其编译成独立App。
+- **注意**: 请你务必在确认 RitsWiFi 能够正常工作后再将其编译成独立App。
 - 请追加 ```-A``` 编译命令来启用别名模式
 
 1. 安装包 ```py2app```。
 
     ```shell
-    pip install py2app
+    pip3 install py2app
     ```
-2. 在编译之前, 建议执行 ```rm -rf dist build``` 来清理编译文件夹。
-3. 在**终端**或是其他你喜欢的终端程序中执行 ```python setup.py py2app -A```。
+2. 在编译之前, 建议执行 `rm -rf dist build` 来清理编译文件夹。
+3. 在**终端**中执行 `python3 setup.py py2app -A`。

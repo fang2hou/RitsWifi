@@ -1,5 +1,5 @@
 # RitsWiFi
-立命館大学無線LANの接続をより簡単にしよう。
+立命館大学無線 LAN への接続をより簡単に。
 
 ***立命館大学構内で利用可能***
 
@@ -11,24 +11,20 @@
 ## 準備
 **Python**: 2.6以降 / 3.3以降
 
-Python 2.7 & 3.7.0 で RitsWiFi のビルドと実行テストを行う。
+**Python 3 はおすすめです。** もし Python 2 で実行もしくはコンパイルするとき、`pip3` と `python3`ではなく、 `pip` と `python` を使ってください。
 
-RitsWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python``` ではなく、```pip3``` と ```python3``` を活用してください。
-
-**追加ライブラリ**: ```requests```、```rumps```
+**利用したライブラリ**: `requests`、`rumps`
 
 ## 使い方
-1. プロジェクトをクローン(Clone)し、もしくは右上の「Download」ボタンよりZIPファイルをダウンロードしてください。
-2. パッケージ ```rumps``` と ```requests``` をインストールしてください。pipでインストールするのはオススメである。
-
+1. プロジェクトをクローン(Clone)し、もしくは右上の「Download」ボタンより Zip ファイルをダウンロードします。
+2. パッケージ `rumps` と `requests` をインストールしてください。pip経由でインストールするのは手軽いです。
     ```shell
-    pip install rumps
-    pip install requests
+    pip3 install rumps
+    pip3 install requests
     ```
 
-3. ```RitsWiFi.py``` にある「Setting Area」で自分とのユーザネームとパスワードを編集してください。
-    - __配置の例__
-    
+3. ```RitsWiFi.py``` にある「Setting Area」で自分との RAINBOW ID とパスワードを編集してください。
+__設定の一例__
     ```python
     # ---------------------------------------
     # Setting Area
@@ -39,19 +35,18 @@ RitsWiFi を macOS Python 3.X で実行する場合、```pip``` や ```python```
     myUsername = "is1234rj"
     myPassword = "12345678"
     ```
-4. **ターミナル**または他のターミナルアプリで ```python RitsWiFi.py``` を実行する。
+4. **ターミナル**で `python3 RitsWiFi.py` を実行することで RitsWiFi を起動します。
 
-## Macアプリとしてバイナリ化
-RitsuWiFi をバイナリ化にしたい場合、下の手順に従って作成できる。
+## Mac アプリにコンパイル
+RitsWiFi をバイナリ化にしたい場合、下の手順に従って作成できます。
 
-- .app ファイルの生成にアイコンファイル(logo.icns)が必要である。
-- RitsuWiFi がうまく動いていることを確認した上、Buildしてください。
-- Alias機能を使う必要があるので、```-A``` コマンドを追加してください。
+- アプリの生成にはアイコンファイル(logo.icns)が必要です。
+- **注意**: RitsWiFi がうまく動いていることを確認した上、Buildしてください。
+- Alias 機能を使う必要があるので、`-A` コマンドを追加してください。
 
-1. パッケージ ```py2app``` をインストールしてください。
-
+1. パッケージ `py2app` をインストールしてください。
     ```shell
-    pip install py2app
+    pip3 install py2app
     ```
-2. コンパイルする前に```rm -rf dist build``` を実行し、ビルドフォルダの整理は推奨である。
-3. **ターミナル**または他のターミナルアプリで ```python setup.py py2app -A``` を実行してください。
+2. コンパイルする前に `rm -rf dist build` を実行し、ビルドフォルダの整理は推奨である。
+3. **ターミナル**で `python3 setup.py py2app -A` を実行してください。
